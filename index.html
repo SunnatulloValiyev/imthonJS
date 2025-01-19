@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Kitoblar Burchagi</title>
+    <link rel="stylesheet" href="main.css"/>
+  </head>
+  <body>
+    <header class="nav-header">
+      <div class="brand-name">Book Store</div>
+    </header> 
+    <div class="wrapper">
+      <main class="section-add">
+        <h4>Kitob Qo'shing</h4>
+        <form id="new-book" class="form-container">
+          <input type="text" placeholder="Kitob nomini kiriting" required/>
+          <input type="text" placeholder="Muallifni ismini kiriting" required/>
+          <input type="text" placeholder="Kitob yilini kiriting" required/>
+          <button type="submit" class="btn-add">Kitob qo'shish</button>
+        </form>
+          <input type="text" id="search" placeholder="Qidiruv"/>
+      </main>
+      <div class="list-books"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
